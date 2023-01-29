@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,200;0,300;0,400;0,500;1,200;1,300&display=swap');
+body {
+  margin: 0;
+  padding: 1%;
+  font-family: 'Work Sans', sans-serif;
+  background: rgb(254,209,199);
+background: linear-gradient(90deg, rgba(254,209,199,1) 17%, rgba(159,70,82,1) 100%);
+text-align: center;
+color: white;
+font-weight: 300;
+font-style: italic;
+}
+form{
+  width: fit-content;
+  margin: auto;
+  background-color: rgba(1,1,1,0.2);
+  /* padding: 40px; */
+  border-radius: 7px;
+  -webkit-border-radius: 7px;
+  -moz-border-radius: 7px;
+  -ms-border-radius: 7px;
+  -o-border-radius: 7px;
+  display: flex;
+}
+form {
+  -webkit-box-shadow: 8px 0px 0px 0px #DCD0C0, 0px 8px 0px 0px #B1938B, -8px 0px 0px 0px #4E4E56, 0px 0px 0px 8px #DA635D, 5px 5px 15px 5px rgba(112, 16, 16, 0.56); 
+  box-shadow: 8px 0px 0px 0px #DCD0C0, 0px 8px 0px 0px #B1938B, -8px 0px 0px 0px #974e4e, 0px 0px 0px 8px #DA635D, 5px 5px 15px 5px rgba(121, 26, 26, 0.537);
+  }
+
+input , textarea , select{
+  padding: 4px;
+  border-radius: 7px;
+  border: white solid 1px;
+  background-color: rgba(226, 217, 200, 0.3);
+  -webkit-border-radius: 7px;
+  -moz-border-radius: 7px;
+  -ms-border-radius: 7px;
+  -o-border-radius: 7px;
+  color: white;
+  margin: 10px;
+}
+select{
+  color: #974e4e;
+}
+input:focus , textarea:focus{
+  border: #974e4e solid 1px;
+  outline: none !important;
+}
+img{
+  width: 350px;
+  height: inherit;
+}
+.inputContainer{
+  padding: 20px 40px;
+
+}
+fieldset{
+  border-radius: 7px;
+  -webkit-border-radius: 7px;
+  -moz-border-radius: 7px;
+  -ms-border-radius: 7px;
+  -o-border-radius: 7px;
+  border:  #974e4e solid 1px ;
+}
+button{
+  border: none;
+  border-radius: 15px;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  -ms-border-radius: 15px;
+  -o-border-radius: 15px;
+  color: #974e4e;
+  padding: 5px;
+  -webkit-box-shadow: 5px 5px 0px 0px #974e4e, 10px 10px 0px 0px #ff5f5f, 15px 15px 0px 0px #A1D8FF, 20px 20px 0px 0px #CAE6FF, 25px 25px 0px 0px #E1EEFF, 5px 5px 13px 5px rgba(0,0,0,0.24); 
+box-shadow:1px 1px 0px 0px #854444ed, 2px 2px 0px 0px #974e4eED, 4px 4px 0px 0px #bb4343, 6px 6px 0px 0px #ffa1a1, 8px 8px 0px 0px #ffcad2, 5px 5px 13px 5px rgba(0,0,0,0.24);
+}
+.err{
+  color: #cf2424 !important;
+}
